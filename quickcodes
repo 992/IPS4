@@ -1,5 +1,6 @@
 {{if $member->member_id == 1}}
-  html to display
+  html to display                         // A code for IPS4 to change shit for USER ID *1*
   {{endif}}
-  
-  // A code for IPS4 to change shit for USER ID *1*
+
+{member="name"} // shows the the member name uses \IPS\Member::loggedIn()->name
+{member="id"} // shows the member id
